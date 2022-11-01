@@ -1,0 +1,13 @@
+1) git clone https://github.com/taniagole/hw01-tcffinal.git
+2) touch textFile1
+3) git checkout -b anotherBranch
+4) git push origin anotherBranch
+5) git switch main
+6) ls; vi textFile2
+7) vi textFile1
+8) git push origin main
+9) git switch anotherBranch
+10) ls; vi textFile1 (add second thing about TAMID)
+11) git push origin anotherBranch 
+12) git switch main
+13) vi textFile 2 (write down list of commands)
