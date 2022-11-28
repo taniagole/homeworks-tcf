@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+       }
+          .headShot {
+            max-width: 60%
+       }
+          .image {
+            flex-basis: 30%;
+            padding-top: 10px;
+            padding-left: 60px;
+            padding-bottom: 10px;
+       }
+          .text {
+            font-size: 20px;
+            padding-right: 20px;
+       }
+    
+          .p {
+        padding-left: 10px;
+      }
+    </style>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        .sideBySideImages {
+          float: left;
+          width: 25%;
+          padding: 5px;
+          padding-left: 20px;
+        }
+        
+        .column {
+          float: right;
+          width: 50%;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        
+        .column img {
+          margin-top: 5px;
+          padding-left: 60px;
+        }
+        
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+</head>
+<body>
+
+<h2>Tania Gole</h2>
+<div class="container" style="background-color: lightgrey">
+    <div class="text">
+        <ul style=“list-style-type:square”> 
+            <li>Birthday: August 13th 2003</li>
+            <li>Hometown: Melbourne, Australia</li>
+            <li>Hobbies: Dance, Martial Arts, Painting, Cycling</li>
+            <li>Fun Fact: I have performed in front of LA's best dancers</li>
+            </ul>
+    </div>
+    <div class="image">
+        <img class = "headShot" src="headshot.png">
+    </div>
+</div>
+<p style="padding-left: 5px;">My Favourite Photos:</p>
+<div class="row">
+  <div class="sideBySideImages">
+    <img src="dubai.webp" alt="dubai" style="width:100%; height: 7.5cm;">
+  </div>
+  <div class="sideBySideImages">
+    <img src="bali.jpeg" alt="bali" style="width:100%; height: 7.5cm;">
+  </div>
+<div class="column">
+    <img src="uwc.jpeg" alt="tenn" style="width:90%; height: 7.5cm;">
+    <img src="tennis.jpeg" alt="Forest" style="width:90%; height: 10cm;">
+ </div>
+ <div class="row">
+    <img src="pizza.jpeg" alt="pizza" style="width:50%; height: 10cm; padding-left: 20px; padding-right: 3px;">
+  </div>
+</div>
+</body>
+</html>
+
+
